@@ -1,0 +1,40 @@
+jupyter notebook --generate-config
+
+peom = 'There ws a young lady named Bright,Whose speed was far faster then light; She started on day In a relative way,And return on the previous night.'
+
+source = 'I wish I may,I wish I might ...Have a dish of fish tonight...'
+
+msg = 'John and Tom will attend my party tonight. John is my best friend.'
+
+line = "Cats are smarter than dogs"
+
+poem = 'Margaret was viewed by her contemporaries as being rather eccentric. She was extravagent and flirtatious, accused of using speech full of oaths and obscenity, and was noted for her unusual sense of fashion. This reputation for eccentricity survives today, when Margaret is widely referred to as Mad Madge.'
+
+#np.sum          加總
+#np.prod         乘積
+#np.mean         平均值
+#np.std          標準差
+#np.var          變異量
+#np.min          最小值
+#np.max          最大值
+#np.argmin       最小值的索引
+#np.argmax       最大值的索引
+#np.median       中位數
+#np.percentile   排名統計
+#np.any          當陣列中有任一值是True或是非零值時傳回True
+#np.all          當陣列中有所有值是True或是非零值時傳回True
+
+pip install beautifulsoup4
+
+http://www.grandtech.info
+
+http://www.pythonscraping.com/pages/page1.html
+
+https://morvanzhou.github.io/static/scraping/basic-structure.html
+
+http://www.pythonscraping.com/pages/warandpeace.html
+
+https://www.taiwanlottery.com.tw/
+
+https://morvanzhou.github.io/static/scraping/list.html
+
