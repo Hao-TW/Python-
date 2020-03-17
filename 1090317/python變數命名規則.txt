@@ -1,0 +1,18 @@
+允許 a-z A-z 0-9 和 _ , 但是開頭必須是 [_a-zA-Z] 其中一個
+變數區分大小寫
+變數長度沒有限制
+特殊的變數, 開頭和結尾都加兩個下底線, ex: __init__
+
+================================================
+特殊的 classes — 使用 單下底線或雙下底線
+開頭單下底線 — 用在 private 的 method or variable
+結尾單下底線 — 用在避免和 python keyword 的衝突 ex: str_
+開頭雙下底線 — 會觸發 name mangling, 用在 class definition, 不常使用
+================================================
+
+命名規則
+Modules and packages — 一律小寫
+Globals and constants — 一律大寫
+Classes — 英文單字開頭第一個字大寫,其餘小寫,文字串接不使用下底線 ex: ClassName
+Methods and functions — 一律小寫,文字串接的時候使用下底線 ex: method_name
+Local variables — 一律小寫,文字串接的時候使用下底線 ex: method_name

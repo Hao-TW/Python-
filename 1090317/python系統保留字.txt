@@ -1,0 +1,34 @@
+保留字	說明
+if	條件語句，與 else , elif 結合使用
+elif	條件語句 與 if , else 結合使用
+else	條件語句 條件語句，與 if , elif 結合使用。也可以用於異常和迴圈使用
+and	用於表示式運算，邏輯“與”操作
+or	用於表示式運算，邏輯“或”操作
+not	用於表示式運算，邏輯“非”操作
+import	用於匯入模組，可以與 from 結合使用
+from	用於匯入模組，與 import 結合使用
+as	用於型別轉換，常用於引入庫時的重新命名及檔案操作時的重新命名
+assert	斷言，用於判斷變數或條件表示式的值是否為真。若為假，則丟擲異常AssertionError
+raise	異常丟擲操作
+for	迴圈語句
+while	迴圈語句
+break	中斷迴圈語句的執行
+continue	繼續執行下一次迴圈
+try	包含可能會出現異常的語句，與 except，finally 結合使用
+except	包括捕獲異常後的操作程式碼，與try，finally結合使用
+finally	用於異常語句。無論是否引發異常，始終要執行 finally 包含的程式碼塊。與 try , except 結合使用
+pass	空語句，常為了保持程式完整性。沒任何功能，常用作佔位符
+def	用於定義函式或方法
+return	用於從函式返回計算結果
+lambda	定義匿名函式（謹慎使用）
+del	刪除變數或者序列的值
+global	定義全域性變數
+nonlocal	在一個函式中修改該函式內部作用域的變數
+in	判斷變數是否存在序列中
+is	判斷變數是否為某個類的例項
+with	簡化Python的語句，在檔案管理時，常於 as 結合使用
+yield	用於從函式依次返回值
+class	用於定義類
+None	與眾不同的一個保留字。自身是一個常量，與其他資料型別比較時規定返回False，資料型別為NoneType
+True	布林值之一，常用於判斷
+False	布林值之一，常用於判斷
