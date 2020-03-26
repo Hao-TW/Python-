@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 21:10:57 2020
+
+@author: ASUS
+"""
+
+import requests
+from bs4 import BeautifulSoup
+
+def append_list_pm25():
+    url = 'https://taqm.epa.gov.tw/pm25/tw/PM25A.aspx?area=1'
+    html = requests.get(url)
+    sp = BeautifulSoup(html.text, 'html.parser')
+    rs = sp.find_all("tr", {"align": "center", "style": "border-width:1px;border-style:Solid;"})
+    for r in rs:
+        name = r.find('a')
+        pm25 = r.find_all('span')
+        dic = {}
+        dic.setdefault('name',   name.text.strip())
+        dic.setdefault('pm25',   pm25[0].text.strip())
+        dic.setdefault('pm25_1', pm25[1].text.strip())
+        list.append(dic)
+
+def get_pm25(name):
+    for d in list:
+        if d.get('name') == name:
+            return d
+list = []
+append_list_pm25()
+
+name = input("請輸入地區 : ")
+d = get_pm25(name)
+print(d)
+print(d.get("pm25"))
